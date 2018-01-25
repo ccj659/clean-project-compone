@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/clean-project-architecture.iml" filepath="$PROJECT_DIR$/clean-project-architecture.iml" />
-      <module fileurl="file://$PROJECT_DIR$/loginmodule/loginmodule.iml" filepath="$PROJECT_DIR$/loginmodule/loginmodule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/videomodule/videomodule.iml" filepath="$PROJECT_DIR$/videomodule/videomodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_haojia/module_haojia.iml" filepath="$PROJECT_DIR$/module_haojia/module_haojia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_home/module_home.iml" filepath="$PROJECT_DIR$/module_home/module_home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_user/module_user.iml" filepath="$PROJECT_DIR$/module_user/module_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_video/module_video.iml" filepath="$PROJECT_DIR$/module_video/module_video.iml" />
     </modules>
   </component>
 </project>

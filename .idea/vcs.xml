@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_haojia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_home" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module_video" vcs="Git" />
   </component>
 </project>

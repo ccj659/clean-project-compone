@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">clean-project-architecture</string>
-
-
+    <string name="title_notifications">我的</string>
+    <string name="title_dashboard">好价</string>
+    <string name="title_home">首页</string>
 
 
 </resources>

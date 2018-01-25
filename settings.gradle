@@ -1,1 +1,1 @@
-include ':app', ':videomodule', ':loginmodule', ':base'
+include ':app', ':module_video', ':module_user', ':base', ':module_haojia', ':module_home'
