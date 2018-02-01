@@ -1,1 +1,1 @@
-include ':app', ':module_video', ':module_user', ':base', ':module_haojia', ':module_home'
+include ':app', ':module_video', ':module_user', ':base', ':module_home', ':module_meizi'

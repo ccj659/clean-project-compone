@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.ccj.base.utils.router.RouterConstants;
+import com.ccj.base.RouterConstants;
 
 /**
  * Created by chenchangjun on 18/1/25.

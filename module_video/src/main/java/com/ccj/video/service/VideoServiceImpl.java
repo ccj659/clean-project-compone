@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.ccj.base.utils.router.RouterConstants;
+import com.ccj.base.RouterConstants;
 import com.ccj.base.utils.router.RouterService;
 
 /**

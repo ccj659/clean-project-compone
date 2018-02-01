@@ -10,7 +10,7 @@ import android.view.MenuItem;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.ccj.base.base.BaseActivity;
-import com.ccj.base.utils.router.RouterConstants;
+import com.ccj.base.RouterConstants;
 import com.efly.flyhelper.adapter.FragmentAdapter;
 
 import java.util.LinkedList;
@@ -20,8 +20,9 @@ import java.util.List;
 public class MainActivity extends BaseActivity {
 
     private ViewPager mPager;
-    private List<Fragment> mFragments=new LinkedList<>();
+    private List<Fragment> mFragments = new LinkedList<>();
     private FragmentAdapter mAdapter;
+    private BottomNavigationView navigation;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -48,27 +49,26 @@ public class MainActivity extends BaseActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_navigation);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        mPager = (ViewPager) findViewById(R.id.container_pager);
+
+        navigation = (BottomNavigationView) findViewById(R.id.navigation);
         initViewPager();
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
     private void initViewPager() {
 
 
         Fragment home = (Fragment) ARouter.getInstance().build(RouterConstants.HOME_MUDULE_FRAGMENT_HOME_HOME).navigation();
-        Fragment haojia = (Fragment) ARouter.getInstance().build(RouterConstants.HAOJIA_MUDULE_FRAGMENT_HOME_HAOJIA).navigation();
+        Fragment meizi = (Fragment) ARouter.getInstance().build(RouterConstants.MEIZI_MUDULE_FRAGMENT_HOME_MEIZI).navigation();
         Fragment user = (Fragment) ARouter.getInstance().build(RouterConstants.USER_MUDULE_FRAGMENT_HOME_USER).navigation();
         mFragments.add(home);
-        mFragments.add(haojia);
+        mFragments.add(meizi);
         mFragments.add(user);
 
-        mPager = (ViewPager) findViewById(R.id.container_pager);
         mAdapter = new FragmentAdapter(getSupportFragmentManager(), mFragments);
         mPager.setAdapter(mAdapter);
     }
-
-
 
 
 }

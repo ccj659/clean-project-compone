@@ -15,7 +15,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.ccj.base.Constants;
 import com.ccj.base.base.BaseActivity;
 import com.ccj.base.base.BaseApplication;
-import com.ccj.base.utils.router.RouterConstants;
+import com.ccj.base.RouterConstants;
 import com.ccj.login.R;
 import com.ccj.login.R2;
 import com.ccj.login.debug.MainActivity;

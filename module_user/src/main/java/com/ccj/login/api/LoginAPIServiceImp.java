@@ -19,7 +19,7 @@ public class LoginAPIServiceImp extends APIService {
     protected static final LoginRetrofitImp loginApiManager = sRetrofit.create(LoginRetrofitImp.class);
 
     /**
-     * 登录,返回,我这边用的是json格式的post,大家可以进行选择
+     * 登录,返回,我这边用的是json格式的post
      * @param city
      * @return
      */

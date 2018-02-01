@@ -5,7 +5,7 @@ import android.os.Bundle;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.ccj.base.base.BaseActivity;
 import com.ccj.base.utils.eventbus.EventUtils;
-import com.ccj.base.utils.router.RouterConstants;
+import com.ccj.base.RouterConstants;
 import com.ccj.login.R;
 
 import org.greenrobot.eventbus.EventBus;

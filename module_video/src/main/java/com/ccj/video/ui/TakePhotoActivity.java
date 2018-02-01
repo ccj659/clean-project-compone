@@ -16,7 +16,7 @@ import com.ccj.base.base.BaseActivity;
 import com.ccj.base.base.Constants;
 import com.ccj.base.utils.TLog;
 import com.ccj.base.utils.router.LoginModuleService;
-import com.ccj.base.utils.router.RouterConstants;
+import com.ccj.base.RouterConstants;
 import com.ccj.base.utils.router.RouterUtils;
 import com.ccj.video.R;
 import com.ccj.video.R2;
